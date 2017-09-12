@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title></title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        h3{
+            width: 960px;
+            height: 100px;
+            margin: 0 auto;
+            background: #CCCCCC;
+            text-align: center;
+            line-height:100px;
+            color: #FFFFFF;
+        }
+        #header{
+            margin-top: 30px;
+        }
+      #nav{
+          margin-top: 30px;
+      }
+      #banner{
+          width: 960px;
+          margin: 0 auto;
+          margin-top:30px;
+      }
+      #banner img{
+          display: block;
+          width: 960px;
+      }
+      #book{
+           width: 960px;
+          height: 300px;
+          margin: 0 auto;
+      }
+      #right,#left{
+          height: 300px;
+          text-align: center;
+          float: left;
+          display:table ;
+      }
+      #left p,#right p{
+          display: table-cell;
+          vertical-align: middle;
+      }
+        #left{
+            width: 600px;
+            background: #ffff00;
+            margin-right: 30px;
+        }
+        #right{
+            width: 330px;
+            background: #00ff00;
+
+        }
+        #foot{
+            clear: both;
+            margin-top: 30px;
+        }
+       @media(max-width: 959px)  {
+           h3{
+               width: 100%;
+           }
+           #book{
+               width: 100%;
+           }
+           #left{
+               width: 57%;
+               margin-right: 3%;
+           }
+           #right{
+               width: 40%;
+           }
+           #banner{
+               width: 100%;
+           }
+           #banner img{
+               width: 100%;
+           }
+       }
+        @media (max-width: 479px) {
+             #right,#left{
+                width: 100%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+     <div id="header">
+         <h3>页头</h3>
+     </div>
+    <div id="nav">
+    <h3> 导航</h3>
+    </div>
+    <div id="banner">
+        <img src="01.jpg" alt=""/>
+    </div>
+    <div id="book">
+        <div id="left">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sem erat, egestas quis luctus ut, rhoncus vitae risus. Integer venenatis libero sit amet sapien dictum, quis bibendum mi volutpat. Cras pretium quam quis magna facilisis, eget feugiat nisi lacinia</p>
+    </div>
+        <div id="right">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sem erat, egestas quis luctus ut, rhoncus vitae risus. Integer venenatis libero sit amet sapien dictum, quis bibendum mi volutpat. Cras pretium quam quis magna facilisis, eget feugiat nisi lacinia</p>
+        </div>
+    </div>
+
+    <div id="foot">
+        <h3>页尾</h3>
+    </div>
+</body>
+</html>
