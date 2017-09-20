@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>我的音乐电台</title>
+    <link rel="shortcut icon" href="favicon.ico"/>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .song_img {
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        background: url("4.jpg");
+        position: absolute;
+       top: 560px;
+        left: 50px;
+        animation: 8s linear infinite round;
+    }
+    #player{
+        background: url("背景.jpg");
+        background-repeat:no-repeat;"
+        background-size:cover;
+        width: 1000px;
+        height: 1000px;
+    }
+body{
+    height: 1000px;
+    width: 1000px;
+}
+    li{
+       list-style: none;
+    }
+    #song{
+        position: absolute;
+        top: 570px;
+        left: 120px;
+    }
+    .audio{
+        width: 600px;
+    }
+    #head{
+        position: absolute;
+        left: 50px;
+    }
+    h1{
+        font-family: Simsun;
+        color: #FFFFFF;
+    }
+    #lyric{
+        height: 500px;
+        width: 600px;
+        border: solid 1px #ff0000;
+        position: absolute;
+        top: 50px;
+        left: 120px;
+
+    }
+    .box{
+        margin-left: 200px;
+    }
+    .roll{
+        height: 500px;
+    }
+    @keyframes round{
+        0%{
+            transform: rotate(0deg);
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+</style>
+<body>
+      <div id="player">
+        <div id="head">
+           <h1>愉♂悦播放器</h1>
+        </div>
+        <div id="lyric">
+            <marquee class="roll" scrollamount="5"direction="up" behavior="scroll" loop="1" scrolldelay="400">
+            <div class="box">
+                    <ul>
+                        <br><br><br><br><br><br>
+                        <li>Monster - Imagine Dragons </li>
+                        <br><br><br>
+                        <li>Ever since I could remember, </li>
+                        <li>当我开始有记忆 </li>
+                        <li>Everything inside of me, </li>
+                        <li>我心里的每件事</li>
+                        <li>Just wanted to fit in (oh oh oh oh)</li>
+                        <li>都想要融入 </li>
+                        <li>I was never one for pretenders, </li>
+                        <li>这里我从来不是个伪装自己的人 </li>
+                        <li>Everything I tried to be, </li>
+                        <li>我每次努力尝试 </li>
+                        <li>Just wouldn't settle in (oh oh oh oh)</li>
+                        <li>都没能达到安稳 </li>
+                        <li>If I told you what I was, </li>
+                        <li>如果我告诉 你我以前是个怎样的人 </li>
+                        <li>Would you turn your back on me? </li>
+                        <li>你会背叛我吗 </li>
+                        <li>And if I seem dangerous, </li>
+                        <li>如果我看起来很危险 </li>
+                        <li>Would you be scared? </li>
+                        <li>你会害怕吗 </li>
+                        <li>I get the feeling just because, </li>
+                        <li>我有这种感觉并没有什么原因 </li>
+                        <li>Everything I touch isn't dark enough </li>
+                        <li>我触碰的每一件东西都有更黑暗的一面 </li>
+                        <li>If this problem lies in me </li>
+                        <li>如果这问题欺骗了我 </li>
+                        <li>I'm only a man with a chamber who's got me, </li>
+                        <li>我只是一个有着一个房间的人 </li>
+                        <li>I'm taking a stand to escape what's inside me. </li>
+                        <li>我说过我要逃离我内心的东西 </li>
+                        <li>A monster, a monster, </li>
+                        <li>一个怪物 一个怪物 </li>
+                        <li>I've turned into a monster, </li>
+                        <li>我已经变成了一个怪物 </li>
+                        <li>A monster, a monster, </li>
+                        <li>一个怪物 一个怪物 </li>
+                        <li>And it keeps getting stronger. </li>
+                        <li>这怪物变得越来越强大 </li>
+                        <li>Can I clear my conscience, </li>
+                        <li>我可以把我的善恶道德观变得更纯洁吗 </li>
+                        <li>If I'm different from the rest, </li>
+                        <li>如果我和别人不同 </li>
+                        <li>Do I have to run and hide? (oh oh oh oh) </li>
+                        <li>我该逃跑再躲起来吗 </li>
+                        <li>I never said that I want this, </li>
+                        <li>我从没说过我想这样 </li>
+                        <li>This burden came to me, </li>
+                        <li>And it's made it's home inside (oh oh oh oh)  </li>
+                        <li>然后在我的心房安了家 </li>
+                        <li>If I told you what I was, </li>
+                        <li>如果我告诉你我以前是个怎样的人 </li>
+                        <li>Would you turn your back on me? </li>
+                        <li>你会背叛我吗 </li>
+                        <li>If this problem lies in me<li>
+                        <li>如果我看起来很危险  </li>
+                        <li>Would you be scared? </li>
+                        <li>你会害怕吗  </li>
+                        <li>I get the feeling just because,  </li>
+                        <li>我又这种感觉并没有什么原因  </li>
+                        <li>Everything I touch isn't dark enough  </li>
+                        <li>我触碰的每一件东西都有更黑暗的一面  </li>
+                        <li>If this problem lies in me  </li>
+                        <li>如果这个问题欺骗了我</li>
+                        <li>I'm only a man with a chamber who's got me,  </li>
+                        <li>我只是一个有着一个房间的人  </li>
+                        <li>I'm taking a stand to escape what's inside me.  </li>
+                        <li>我说过我要逃离我内心的东西  </li>
+                        <li>A monster, a monster,  </li>
+                        <li>一个怪物 一个怪物  </li>
+                        <li>I've turned into a monster,  </li>
+                        <li>我已经变成了一个怪物 </li>
+                        <li>A monster, a monster, </li>
+                        <li>一个怪物 一个怪物  </li>
+                        <li>And it keeps getting stronger. </li>
+                        <li>这怪物变得越来越强大  </li>
+                        <li>I'm only a man with a chamber who's got me,  </li>
+                        <li>我只是一个有着一个房间的人  </li>
+                        <li>I'm taking a stand to escape what's inside me.  </li>
+                        <li>我说过我要逃离我内心的东西  </li>
+                        <li>A monster, a monster, </li>
+                        <li>一个怪物 一个怪物  </li>
+                        <li>I've turned into a monster,  </li>
+                        <li>我已经变成了一个怪物  </li>
+                        <li>A monster, a monster, </li>
+                        <li>一个怪物 一个怪物  </li>
+                        <li>And it keeps getting stronger.  </li>
+                        <li>这怪物变得越来越强大  </li>
+                        <br> <br> <br> <br> <br>
+                        <li>I'm taking a stand to escape what's inside me.  </li>
+                        <li>我说过我要逃离我内心的东西  </li>
+                        <li>A monster, a monster,  </li>
+                        <li>一个怪物 一个怪物  </li>
+                        <li>I've turned into a monster,  </li>
+                        <li>我已经变成了一个怪物 </li>
+                        <li>A monster, a monster, </li>
+                        <li>一个怪物 一个怪物  </li>
+                        <li>And it keeps getting stronger. </li>
+                        <li>这怪物变得越来越强大  </li>
+                        <li>I'm only a man with a chamber who's got me,  </li>
+                        <li>我只是一个有着一个房间的人  </li>
+                        <li>I'm taking a stand to escape what's inside me.  </li>
+                        <li>我说过我要逃离我内心的东西  </li>
+                        <li>A monster, a monster, </li>
+                        <li>一个怪物 一个怪物  </li>
+                        <li>I've turned into a monster,  </li>
+                        <li>我已经变成了一个怪物  </li>
+                        <li>A monster, a monster, </li>
+                        <li>一个怪物 一个怪物  </li>
+                        <li>And it keeps getting stronger.  </li>
+                        <li>这怪物变得越来越强大  </li>
+                        <br>
+                        <li>感谢有你！</li>
+                        <li>谢谢欣赏！</li>
+                    </ul>
+                </div>
+            </marquee>
+        </div>
+
+        <div class="song_head">
+                <div class="song_img ">
+                </div>
+        </div>
+         <div id="song">
+             <audio controls src="1.mp3" preload="auto" class="audio"></audio>
+         </div>
+  </div>
+</body>
+</html>
